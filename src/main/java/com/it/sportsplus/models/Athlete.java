@@ -9,7 +9,7 @@ public class Athlete implements Serializable {
 	
 	@Id
 	@GeneratedValue
-	@Column(name="athlete_id")
+	@Column(name="athlete_id", unique=true)
 	private Long id;
 	
 	@Column(name="first_name")
