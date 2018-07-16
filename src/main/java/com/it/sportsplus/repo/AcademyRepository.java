@@ -6,4 +6,5 @@ import com.it.sportsplus.models.Academy;
 
 public interface AcademyRepository extends JpaRepository<Academy,Long> {
 
+	Academy updateAcademy(Academy academy);
 }
